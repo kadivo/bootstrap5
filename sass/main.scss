@@ -1,7 +1,9 @@
 // custom variables
-$primary: #017202;
-$light: #edffe9;
+$primary: #ff3c00;
+$secondary: rgb(195, 0, 111);
+$light: #ffecc1;
 $zindex-offcanvas: 1095;
+$accordion-button-active-bg: $light;
 
 // import the functions & variables
 @import "../node_modules/bootstrap/scss/_functions";

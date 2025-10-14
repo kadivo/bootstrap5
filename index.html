@@ -8,7 +8,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
     />
-    <title>Bootstrap 5 - Book thing</title>
+    <title>UX25 - Our Battery Liquid</title>
     <style>
       section {
         padding: 60px 0;
@@ -17,17 +17,18 @@
   </head>
   <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-md navbar-light pt-5 pb-4">
+    <nav class="navbar navbar-expand-md navbar-light bg-light pb-4">
       <div class="container-xxl">
         <!-- navbar brand / title -->
         <a href="#intro" class="navbar-brand">
           <span class="fw-bold text-secondary"
-            ><i class="bi bi-book-half"></i> Net Ninja Pro - the Book</span
+            ><i class="bi bi-cup-straw"></i> Red Bull Winter Edition - the
+            Drink</span
           >
         </a>
         <!-- toggle button for mobile nav -->
         <button
-          class="navbar-toggler"
+          class="navbar-toggler text-secondary"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#main-nav"
@@ -45,7 +46,7 @@
         >
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a href="#topics" class="nav-link">About The Book</a>
+              <a href="#topics" class="nav-link">About The Drink</a>
             </li>
             <li class="nav-item">
               <a href="#reviews" class="nav-link">Reviews</a>
@@ -70,11 +71,11 @@
         <div class="row justify-content-center align-items-center">
           <div class="col-md-5 text-center text-md-start">
             <h1>
-              <div class="display-2">Black Belt</div>
+              <div class="display-2 text-danger">Red Belt</div>
               <div class="display-5 text-muted">Your Coding Skills</div>
             </h1>
             <p class="lead my-4 text-muted">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Have this drink and you'll code 9000% faster.
             </p>
             <a href="#pricing" class="btn btn-secondary btn-lg">Buy Now</a>
             <!-- open sidebar / offcanvas -->
@@ -84,19 +85,19 @@
               data-bs-toggle="offcanvas"
               role="button"
               aria-controls="sidebar"
-              >Explore my other books</a
+              >Explore my other drinks</a
             >
           </div>
-          <div class="col-md-5 text-center d-none d-md-block">
+          <div class="col-md-3 text-center d-none d-md-block">
             <!-- tooltip -->
             <span
               class="tt"
               data-bs-placement="bottom"
-              title="Net Ninja Book Cover"
+              title="My strength on long days"
               ><img
                 class="img-fluid"
-                src="assets/ebook-cover.png"
-                alt="ebook cover"
+                src="assets/winter_bull_s.webp"
+                alt="can of red bull"
             /></span>
           </div>
         </div>
@@ -117,7 +118,7 @@
             <div class="card border-0">
               <div class="card-body text-center py-4">
                 <h4 class="card-title">Starter Edition</h4>
-                <p class="lead card-subtitle">eBook download only</p>
+                <p class="lead card-subtitle">One Bull per Day</p>
                 <p class="display-5 my-4 text-primary fw-bold">$12.99</p>
                 <p class="card-text mx-5 text-muted d-none d-lg-block">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -136,7 +137,7 @@
               </div>
               <div class="card-body text-center py-5">
                 <h4 class="card-title">Complete Edition</h4>
-                <p class="lead card-subtitle">eBook download & all updates</p>
+                <p class="lead card-subtitle">Three Bulls per Day</p>
                 <p class="display-4 my-4 text-primary fw-bold">$18.99</p>
                 <p class="card-text mx-5 text-muted d-none d-lg-block">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -152,7 +153,7 @@
             <div class="card border-0">
               <div class="card-body text-center py-4">
                 <h4 class="card-title">Ultimate Edition</h4>
-                <p class="lead card-subtitle">download, updates & extras</p>
+                <p class="lead card-subtitle">One Whole Crate per Day</p>
                 <p class="display-5 my-4 text-primary fw-bold">$24.99</p>
                 <p class="card-text mx-5 text-muted d-none d-lg-block">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -171,15 +172,17 @@
     <section id="topics">
       <div class="container-md">
         <div class="text-center">
-          <h2>Inside the Book...</h2>
-          <p class="lead text-muted">
-            A quick glance ar the topics you'll learn
-          </p>
+          <h2>Inside the Bull...</h2>
+          <p class="lead text-muted">A quick glance at the benefits <br>(It will make you go like nyoooom)
+            <div class="spinner-border text-warning" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div></p>
         </div>
+        
 
         <div class="row my-5 g-5 justify-content-around align-items-center">
           <div class="col-6 col-lg-4">
-            <img src="assets/kindle.png" class="img-fluid" alt="ebook" />
+            <img src="assets/bull_crate.webp" class="img-fluid" alt="ebook" />
           </div>
           <div class="col-lg-6">
             <!-- accordion -->
@@ -195,7 +198,7 @@
                     aria-expanded="true"
                     aria-controls="chapter-1"
                   >
-                    Chapter 1 - Your First Web Page
+                    Chapter 1 - Your First Red Bull Winter Edition
                   </button>
                 </h2>
                 <div
@@ -229,7 +232,7 @@
                     aria-expanded="false"
                     aria-controls="chapter-2"
                   >
-                    Chapter 2 - Mastering CSS
+                    Chapter 2 - Mastering the Art of Red Bull
                   </button>
                 </h2>
                 <div
@@ -263,7 +266,7 @@
                     aria-expanded="false"
                     aria-controls="chapter-3"
                   >
-                    Chapter 3 - The Power of JavaScript
+                    Chapter 3 - The Power of Red Bull (It's Insane!!!)
                   </button>
                 </h2>
                 <div
@@ -297,7 +300,8 @@
                     aria-expanded="false"
                     aria-controls="chapter-4"
                   >
-                    Chapter 4 - Storing Data (Firebase Databases)
+                    Chapter 4 - Storing Energy (The mitochondria is the
+                    powerhouse of the cell)
                   </button>
                 </h2>
                 <div
@@ -331,7 +335,8 @@
                     aria-expanded="false"
                     aria-controls="chapter-5"
                   >
-                    Chapter 5 - User Authentication
+                    Chapter 5 - User Authentication - Not recommended for
+                    children under 16
                   </button>
                 </h2>
                 <div
@@ -361,23 +366,133 @@
       </div>
     </section>
 
+    <!-- tabs -->
+    <section class="tabs pt-0">
+      <div class="container">
+        <nav>
+          <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <button
+              class="nav-link active text-primary"
+              id="nav-home-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#nav-home"
+              type="button"
+              role="tab"
+              aria-controls="nav-home"
+              aria-selected="true"
+            >
+              Home
+            </button>
+            <button
+              class="nav-link"
+              id="nav-profile-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#nav-profile"
+              type="button"
+              role="tab"
+              aria-controls="nav-profile"
+              aria-selected="false"
+            >
+              School
+            </button>
+            <button
+              class="nav-link"
+              id="nav-contact-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#nav-contact"
+              type="button"
+              role="tab"
+              aria-controls="nav-contact"
+              aria-selected="false"
+            >
+              Work
+            </button>
+          </div>
+        </nav>
+        <div class="tab-content" id="nav-tabContent">
+          <div
+            class="tab-pane fade show active p-3"
+            id="nav-home"
+            role="tabpanel"
+            aria-labelledby="nav-home-tab"
+          >
+            <h2>Home</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+              temporibus delectus, atque ipsum dolorum in esse similique. Qui
+              non ipsa corrupti ea, quo eum odio, hic assumenda dolore vel
+              temporibus.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+              temporibus delectus, atque ipsum dolorum in esse similique. Qui
+              non ipsa corrupti ea, quo eum odio, hic assumenda dolore vel
+              temporibus.
+            </p>
+          </div>
+
+          <div
+            class="tab-pane fade p-3"
+            id="nav-profile"
+            role="tabpanel"
+            aria-labelledby="nav-profile-tab"
+          >
+            <h2>School</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+              temporibus delectus, atque ipsum dolorum in esse similique. Qui
+              non ipsa corrupti ea, quo eum odio, hic assumenda dolore vel
+              temporibus.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+              temporibus delectus, atque ipsum dolorum in esse similique. Qui
+              non ipsa corrupti ea, quo eum odio, hic assumenda dolore vel
+              temporibus.
+            </p>
+          </div>
+
+          <div
+            class="tab-pane fade p-3"
+            id="nav-contact"
+            role="tabpanel"
+            aria-labelledby="nav-contact-tab"
+          >
+            <h2>Work</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+              temporibus delectus, atque ipsum dolorum in esse similique. Qui
+              non ipsa corrupti ea, quo eum odio, hic assumenda dolore vel
+              temporibus.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+              temporibus delectus, atque ipsum dolorum in esse similique. Qui
+              non ipsa corrupti ea, quo eum odio, hic assumenda dolore vel
+              temporibus.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- reviews list -->
-    <section id="reviews" class="bg-altlight">
+    <section id="reviews" class="bg-light">
       <div class="container-lg">
         <div class="text-center">
-          <h2><i class="bi bi-stars text-altdark"></i> Book Reviews</h2>
-          <p class="lead">What my students have said about the book...</p>
+          <h2><i class="bi bi-stars text-primary"></i> Red Bull Reviews</h2>
+          <p class="lead">What my students have said about the drink...</p>
         </div>
         <div class="row justify-content-center my-5">
           <div class="col-lg-8">
             <div class="list-group">
               <div class="list-group-item py-3">
-                <div class="pb-2 text-altdark">
+                <div class="pb-2 text-primary">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
                   ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
                   ><i class="bi bi-star-fill"></i>
                 </div>
-                <h5 class="mb-1">A must buy for every aspiring web dev</h5>
+                <h5 class="mb-1">A must buy for every student</h5>
                 <p class="mb-1">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
                   expedita ex debitis magni hic amet voluptates, deserunt sunt
@@ -387,12 +502,12 @@
                 <small>Review by Mario</small>
               </div>
               <div class="list-group-item py-3">
-                <div class="pb-2 text-altdark">
+                <div class="pb-2 text-primary">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
                   ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
                   ><i class="bi bi-star-half"></i>
                 </div>
-                <h5 class="mb-1">A must buy for every aspiring web dev</h5>
+                <h5 class="mb-1">A must buy for every student</h5>
                 <p class="mb-1">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
                   expedita ex debitis magni hic amet voluptates, deserunt sunt
@@ -402,12 +517,12 @@
                 <small>Review by Mario</small>
               </div>
               <div class="list-group-item py-3">
-                <div class="pb-2 text-altdark">
+                <div class="pb-2 text-primary">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
                   ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
                   ><i class="bi bi-star"></i>
                 </div>
-                <h5 class="mb-1">A must buy for every aspiring web dev</h5>
+                <h5 class="mb-1">A must buy for every student</h5>
                 <p class="mb-1">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
                   expedita ex debitis magni hic amet voluptates<i
@@ -419,12 +534,12 @@
                 <small>Review by Mario</small>
               </div>
               <div class="list-group-item py-3">
-                <div class="pb-2 text-altdark">
+                <div class="pb-2 text-primary">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
                   ><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i
                   ><i class="bi bi-star"></i>
                 </div>
-                <h5 class="mb-1">A must buy for every aspiring web dev</h5>
+                <h5 class="mb-1">A must buy for every student</h5>
                 <p class="mb-1">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
                   expedita ex debitis magni hic amet voluptates, deserunt sunt
@@ -434,12 +549,12 @@
                 <small>Review by Mario</small>
               </div>
               <div class="list-group-item py-3">
-                <div class="pb-2 text-altdark">
+                <div class="pb-2 text-primary">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
                   ><i class="bi bi-star-fill"></i><i class="bi bi-star"></i
                   ><i class="bi bi-star"></i>
                 </div>
-                <h5 class="mb-1">A must buy for every aspiring web dev</h5>
+                <h5 class="mb-1">A must buy for every student</h5>
                 <p class="mb-1">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
                   expedita ex debitis magni hic amet voluptates, deserunt sunt
@@ -563,7 +678,7 @@
               ut deserunt exercitationem accusantium?
             </p>
             <button
-              class="btn btn-primary"
+              class="btn btn-secondary"
               data-bs-toggle="modal"
               data-bs-target="#reg-modal"
             >
@@ -611,110 +726,8 @@
             />
           </div>
           <div class="modal-footer">
-            <button class="btn btn-primary">Submit</button>
+            <button class="btn btn-secondary">Submit</button>
           </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- tabs -->
-    <div class="container my-5">
-      <nav>
-        <div class="nav nav-tabs" id="nav-tab" role="tablist">
-          <button
-            class="nav-link active text-primary"
-            id="nav-home-tab"
-            data-bs-toggle="tab"
-            data-bs-target="#nav-home"
-            type="button"
-            role="tab"
-            aria-controls="nav-home"
-            aria-selected="true"
-          >
-            Home
-          </button>
-          <button
-            class="nav-link"
-            id="nav-profile-tab"
-            data-bs-toggle="tab"
-            data-bs-target="#nav-profile"
-            type="button"
-            role="tab"
-            aria-controls="nav-profile"
-            aria-selected="false"
-          >
-            Profile
-          </button>
-          <button
-            class="nav-link"
-            id="nav-contact-tab"
-            data-bs-toggle="tab"
-            data-bs-target="#nav-contact"
-            type="button"
-            role="tab"
-            aria-controls="nav-contact"
-            aria-selected="false"
-          >
-            Contact
-          </button>
-        </div>
-      </nav>
-      <div class="tab-content" id="nav-tabContent">
-        <div
-          class="tab-pane fade show active p-3"
-          id="nav-home"
-          role="tabpanel"
-          aria-labelledby="nav-home-tab"
-        >
-          <h2>Home</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
-            temporibus delectus, atque ipsum dolorum in esse similique. Qui non
-            ipsa corrupti ea, quo eum odio, hic assumenda dolore vel temporibus.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
-            temporibus delectus, atque ipsum dolorum in esse similique. Qui non
-            ipsa corrupti ea, quo eum odio, hic assumenda dolore vel temporibus.
-          </p>
-        </div>
-
-        <div
-          class="tab-pane fade p-3"
-          id="nav-profile"
-          role="tabpanel"
-          aria-labelledby="nav-profile-tab"
-        >
-          <h2>Profile</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
-            temporibus delectus, atque ipsum dolorum in esse similique. Qui non
-            ipsa corrupti ea, quo eum odio, hic assumenda dolore vel temporibus.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
-            temporibus delectus, atque ipsum dolorum in esse similique. Qui non
-            ipsa corrupti ea, quo eum odio, hic assumenda dolore vel temporibus.
-          </p>
-        </div>
-
-        <div
-          class="tab-pane fade p-3"
-          id="nav-contact"
-          role="tabpanel"
-          aria-labelledby="nav-contact-tab"
-        >
-          <h2>Contact</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
-            temporibus delectus, atque ipsum dolorum in esse similique. Qui non
-            ipsa corrupti ea, quo eum odio, hic assumenda dolore vel temporibus.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
-            temporibus delectus, atque ipsum dolorum in esse similique. Qui non
-            ipsa corrupti ea, quo eum odio, hic assumenda dolore vel temporibus.
-          </p>
         </div>
       </div>
     </div>
@@ -727,7 +740,7 @@
       aria-labelledby="sidebar-label"
     >
       <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="sidebar-label">My Other Books</h5>
+        <h5 class="offcanvas-title" id="sidebar-label">My Other Drinks</h5>
         <button
           type="button"
           class="btn-close"
@@ -750,17 +763,21 @@
             id="book-dropdown"
             data-bs-toggle="dropdown"
           >
-            Choose a book title
+            Choose a title
           </button>
           <ul class="dropdown-menu" aria-labelledby="book-dropdown">
             <li>
-              <a href="#" class="dropdown-item">Becomen a React Superhero</a>
+              <a href="#" class="dropdown-item"
+                >Become a superhero sponsored by Red Bull</a
+              >
             </li>
             <li>
-              <a href="#" class="dropdown-item">BConquering Vue.js</a>
+              <a href="#" class="dropdown-item">BConquering Sleep</a>
             </li>
             <li>
-              <a href="#" class="dropdown-item">Levelling up your Next.js</a>
+              <a href="#" class="dropdown-item"
+                >Levelling up your Code Game (with red bull)</a
+              >
             </li>
           </ul>
         </div>
