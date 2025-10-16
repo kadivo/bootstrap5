@@ -17,7 +17,7 @@
   </head>
   <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-md navbar-light bg-light pb-4">
+    <nav class="navbar navbar-expand-md navbar-light bg-dark pb-4">
       <div class="container-xxl">
         <!-- navbar brand / title -->
         <a href="#intro" class="navbar-brand">
@@ -78,6 +78,7 @@
               Have this drink and you'll code 9000% faster.
             </p>
             <a href="#pricing" class="btn btn-secondary btn-lg">Buy Now</a>
+
             <!-- open sidebar / offcanvas -->
             <a
               href="#sidebar"
@@ -88,6 +89,7 @@
               >Explore my other drinks</a
             >
           </div>
+
           <div class="col-md-3 text-center d-none d-md-block">
             <!-- tooltip -->
             <span
@@ -173,12 +175,14 @@
       <div class="container-md">
         <div class="text-center">
           <h2>Inside the Bull...</h2>
-          <p class="lead text-muted">A quick glance at the benefits <br>(It will make you go like nyoooom)
-            <div class="spinner-border text-warning" role="status">
-          <span class="visually-hidden">Loading...</span>
-        </div></p>
+          <p class="lead text-muted">
+            A quick glance at the benefits <br />(It will make you go like
+            nyoooom)
+          </p>
+          <div class="spinner-border text-warning" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
         </div>
-        
 
         <div class="row my-5 g-5 justify-content-around align-items-center">
           <div class="col-6 col-lg-4">
@@ -366,13 +370,13 @@
       </div>
     </section>
 
-    <!-- tabs -->
-    <section class="tabs pt-0">
+    <!-- tabs aga tegin hoopis pills -->
+    <section class="pills pt-0">
       <div class="container">
         <nav>
-          <div class="nav nav-tabs" id="nav-tab" role="tablist">
+          <div class="nav nav-pills" id="nav-tab" role="tablist">
             <button
-              class="nav-link active text-primary"
+              class="nav-link active"
               id="nav-home-tab"
               data-bs-toggle="tab"
               data-bs-target="#nav-home"
@@ -583,6 +587,21 @@
 
         <div class="row justify-content-center my-5">
           <div class="col-lg-6">
+            <!-- range -->
+
+            <label for="range" class="form-label"
+              >How informative was this webpage?</label
+            >
+            <div class="mb-4 input-group">
+              <input
+                type="range"
+                class="form-range"
+                min="0"
+                max="5"
+                step="0.5"
+                id="range"
+              />
+            </div>
             <!-- email -->
             <form>
               <label for="email" class="form-label">Email address:</label>
