@@ -5,14 +5,16 @@ $light: #ffefcb;
 $dark: #ffdddd;
 $zindex-offcanvas: 1095;
 $accordion-button-active-bg: $light;
+$nav-pills-link-active-bg: #c42d91;
+$nav-link-color: $secondary;
 
 // import the functions & variables
 @import "../node_modules/bootstrap/scss/_functions";
 @import "../node_modules/bootstrap/scss/_variables";
 
 $custom-theme-colors: (
-  "altlight": #f2ebfa,
-  "altdark": #522192,
+  "altlight": #ffdef2,
+  "altdark": #c42d91,
 );
 
 $theme-colors: map-merge($custom-theme-colors, $theme-colors);
